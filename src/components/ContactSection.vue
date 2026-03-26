@@ -12,64 +12,51 @@ const { t } = useI18n();
       </p>
     </div>
 
-    <div class="max-w-2xl mx-auto">
-      <form class="space-y-8" @submit.prevent>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="space-y-2">
-            <label class="text-warm uppercase tracking-widest text-[10px] font-bold" for="name">{{ t('contact.form.name') }}</label>
-            <input
-              id="name"
-              type="text"
-              class="w-full bg-transparent border-b border-offwhite/20 py-4 text-offwhite placeholder:text-offwhite/10 focus:border-warm transition-colors outline-none"
-              :placeholder="t('contact.form.namePlaceholder')"
-            />
+    <!-- Official Contact Details Card -->
+    <div class="max-w-4xl mx-auto mb-20 bg-offwhite/5 border border-offwhite/10 p-8 md:p-12 animate-fade-in transition-all duration-500 hover:border-warm/30">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12 border-b border-offwhite/5 pb-12">
+        <!-- Row 1: Name & Email -->
+        <div class="space-y-8">
+          <div>
+            <h3 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-3">{{ t('contact.details.name') }}</h3>
+            <p class="text-2xl font-serif text-offwhite">{{ t('contact.details.name') }}</p>
           </div>
-          <div class="space-y-2">
-            <label class="text-warm uppercase tracking-widest text-[10px] font-bold" for="email">{{ t('contact.form.email') }}</label>
-            <input
-              id="email"
-              type="email"
-              class="w-full bg-transparent border-b border-offwhite/20 py-4 text-offwhite placeholder:text-offwhite/10 focus:border-warm transition-colors outline-none"
-              :placeholder="t('contact.form.emailPlaceholder')"
-            />
+          <div>
+            <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-2">{{ t('contact.details.email_label') }}</h4>
+            <a 
+              :href="`mailto:${t('contact.details.email')}`"
+              class="text-xl md:text-2xl font-serif text-offwhite hover:text-warm transition-colors underline underline-offset-8 decoration-warm/30"
+            >
+              {{ t('contact.details.email') }}
+            </a>
           </div>
         </div>
 
-        <div class="space-y-2">
-          <label class="text-warm uppercase tracking-widest text-[10px] font-bold" for="message">{{ t('contact.form.message') }}</label>
-          <textarea
-            id="message"
-            rows="4"
-            class="w-full bg-transparent border-b border-offwhite/20 py-4 text-offwhite placeholder:text-offwhite/10 focus:border-warm transition-colors outline-none resize-none"
-            :placeholder="t('contact.form.messagePlaceholder')"
-          ></textarea>
-        </div>
-
-        <button
-          type="submit"
-          class="w-full py-5 bg-warm text-charcoal font-bold uppercase tracking-[0.2em] text-xs hover:bg-offwhite transition-all duration-300 transform active:scale-95 shadow-xl"
-        >
-          {{ t('contact.form.submit') }}
-        </button>
-      </form>
-
-      <div class="mt-16 pt-12 border-t border-offwhite/10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-        <div>
-          <h4 class="text-warm text-[10px] font-bold uppercase tracking-widest mb-2">{{ t('contact.info.location') }}</h4>
-          <p class="text-offwhite/70 text-sm">Stockholm, Sweden</p>
-        </div>
-        <div>
-          <h4 class="text-warm text-[10px] font-bold uppercase tracking-widest mb-2">{{ t('contact.info.email') }}</h4>
-          <p class="text-offwhite/70 text-sm underline underline-offset-4">nichlas@photobybehrmann.se</p>
-        </div>
-        <div>
-          <h4 class="text-warm text-[10px] font-bold uppercase tracking-widest mb-2">{{ t('contact.info.social') }}</h4>
-          <div class="flex justify-center md:justify-start space-x-4 mt-2">
-            <a href="#" class="text-offwhite/50 hover:text-warm transition-colors text-sm">Instagram</a>
-            <a href="#" class="text-offwhite/50 hover:text-warm transition-colors text-sm">Behance</a>
+        <!-- Row 2: Phone & Address -->
+        <div class="space-y-8">
+          <div>
+            <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-2">{{ t('contact.details.phone_label') }}</h4>
+            <p class="text-2xl font-serif text-offwhite">{{ t('contact.details.phone') }}</p>
+          </div>
+          <div>
+            <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-2">{{ t('contact.details.address_label') }}</h4>
+            <p class="text-offwhite/70 leading-relaxed text-lg">{{ t('contact.details.address') }}</p>
           </div>
         </div>
       </div>
+
+      <!-- Row 3: Billing Info -->
+      <div class="text-center md:text-left">
+        <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-3">{{ t('contact.details.billing_label') }}</h4>
+        <p class="text-offwhite/50 italic text-sm tracking-wide">{{ t('contact.details.billing') }}</p>
+      </div>
+    </div>
+
+    <div class="max-w-2xl mx-auto">
+      <!-- Contact form is currently hidden as requested -->
+      <!--<form class="space-y-8" @submit.prevent>
+        ...
+      </form>-->
     </div>
   </section>
 </template>
