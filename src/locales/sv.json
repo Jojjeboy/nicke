@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Hem",
+    "portfolio": "Portfolio",
+    "about": "Om",
+    "contact": "Kontakt",
+    "book": "Boka nu"
+  },
+  "hero": {
+    "subtitle": "Professionell Fotograf",
+    "title": "Nichlas Behrmann",
+    "description": "Fångar essensen av naturen, vildlivets själ och de intrikata berättelserna i vår värld.",
+    "viewGallery": "Visa galleri",
+    "readBio": "Läs bio"
+  },
+  "gallery": {
+    "title": "Portfolio",
+    "categories": {
+      "wildlife": "Vildliv",
+      "landscape": "Landskap",
+      "drone": "Drönare",
+      "portrait": "Porträtt",
+      "nature": "Natur",
+      "urban": "Stad & Arkitektur"
+    },
+    "items": {
+      "silent_watcher": "Den tysta väktaren",
+      "eternal_horizon": "Evig horisont",
+      "above_mist": "Ovanför dimman",
+      "human_essence": "Mänsklig essens",
+      "green_whisper": "Grön viskning",
+      "city_pulse": "Stadspuls"
+    }
+  },
+  "about": {
+    "subtitle": "Konstnären bakom linsen",
+    "title": "Fångar ögonblick, <br />bevarar minnen.",
+    "bio1": "Hej, jag heter Nichlas Behrmann och är företagare, drönarpilot och fotograf baserad i Stockholm. Sedan 2008 har jag ägnat mig åt konsten att berätta visuella historier.",
+    "bio2": "Utöver fotografering brinner jag för djur och natur. Det finns inget som ljudet av porlande vatten eller vinden genom träden som inspirerar mitt arbete.",
+    "bio3": "Mitt mål är att fånga harmonin mellan människor och naturen, och betona vikten av att bevara vår miljö för framtida generationer.",
+    "competencies": {
+      "title": "Kompetenser",
+      "list": ["Vildliv & Natur", "Drönare & Flyg", "Landskapsfotografering", "Stad & Arkitektur"]
+    },
+    "equipment": {
+      "title": "Utrustning",
+      "list": ["Canon R-serien", "DJI Mavic Pro 3", "Prime-objektiv", "Leica M-serien"]
+    },
+    "est": "ETABL. 2008"
+  },
+  "contact": {
+    "title": "Låt oss skapa tillsammans",
+    "description": "Oavsett om du vill boka en fotografering, köpa en bild eller bara säga hej, så hör jag gärna från dig.",
+    "form": {
+      "name": "Ditt namn",
+      "email": "E-postadress",
+      "message": "Meddelande",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@exempel.se",
+      "messagePlaceholder": "Berätta om ditt projekt...",
+      "submit": "Skicka meddelande"
+    },
+    "info": {
+      "location": "Plats",
+      "email": "E-post",
+      "social": "Sociala medier"
+    }
+  },
+  "footer": {
+    "rights": "Nichlas Behrmann Photography. Alla rättigheter förbehållna."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "hero": {
+    "subtitle": "Professional Photographer",
+    "title": "Nichlas Behrmann",
+    "description": "Capturing the essence of nature, the soul of wildlife, and the intricate stories of our world.",
+    "viewGallery": "View Gallery",
+    "readBio": "Read Bio"
+  },
+  "gallery": {
+    "title": "Portfolio",
+    "categories": {
+      "wildlife": "Wildlife",
+      "landscape": "Landscape",
+      "drone": "Drone",
+      "portrait": "Portrait",
+      "nature": "Nature",
+      "urban": "Urban & Architecture"
+    },
+    "items": {
+      "silent_watcher": "The Silent Watcher",
+      "eternal_horizon": "Eternal Horizon",
+      "above_mist": "Above the Mist",
+      "human_essence": "Human Essence",
+      "green_whisper": "Green Whisper",
+      "city_pulse": "City pulse"
+    }
+  },
+  "about": {
+    "subtitle": "The Artist Behind the lens",
+    "title": "Capturing Moments, <br />Preserving Memories.",
+    "bio1": "Hello, I am Nichlas Behrmann, an entrepreneur, drone pilot, and photographer based in Stockholm, Sweden. Since 2008, I have dedicated myself to the art of visual storytelling.",
+    "bio2": "Beyond photography, I am deeply passionate about animals and nature. There is nothing like the sound of water rippling or the wind through the trees to inspire my work.",
+    "bio3": "My goal is to capture the harmony between humans and the natural world, emphasizing the importance of preserving our environment for future generations.",
+    "competencies": {
+      "title": "Competencies",
+      "list": ["Wildlife & Nature", "Drone & Aerial", "Landscape Photography", "Urban & Architecture"]
+    },
+    "equipment": {
+      "title": "Equipment",
+      "list": ["Canon R-Series", "DJI Mavic Pro 3", "Prime Lenses", "Leica M Series"]
+    },
+    "est": "EST. 2008"
+  },
+  "contact": {
+    "title": "Let's Create Together",
+    "description": "Whether you're looking to book a session, purchase a print, or just say hello, I'd love to hear from you.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "message": "Message",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message"
+    },
+    "info": {
+      "location": "Location",
+      "email": "Email",
+      "social": "Social"
+    }
+  },
+  "footer": {
+    "rights": "Nichlas Behrmann Photography. All Rights Reserved."
+  }
+}
