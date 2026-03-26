@@ -36,7 +36,12 @@ const { t } = useI18n();
         <div class="space-y-8">
           <div>
             <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-2">{{ t('contact.details.phone_label') }}</h4>
-            <p class="text-2xl font-serif text-offwhite"><a href="tel:+46701234567">+46 704 98 09 75</a> </p>
+            <a 
+              href="tel:+46704980975"
+              class="text-2xl font-serif text-offwhite hover:text-warm transition-colors"
+            >
+              {{ t('contact.details.phone') }}
+            </a>
           </div>
           <div>
             <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-2">{{ t('contact.details.address_label') }}</h4>
@@ -47,16 +52,9 @@ const { t } = useI18n();
 
       <!-- Row 3: Billing Info -->
       <div class="text-center md:text-left">
-        <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-3">{{ t('contact.details.billing_label') }}</h4>
+        <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-1">{{ t('contact.details.billing_label') }}</h4>
         <p class="text-offwhite/50 italic text-sm tracking-wide">{{ t('contact.details.billing') }}</p>
       </div>
-    </div>
-
-    <div class="max-w-2xl mx-auto">
-      <!-- Contact form is currently hidden as requested -->
-      <!--<form class="space-y-8" @submit.prevent>
-        ...
-      </form>-->
     </div>
   </section>
 </template>

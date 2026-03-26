@@ -34,7 +34,8 @@
   },
   "about": {
     "subtitle": "The Artist Behind the lens",
-    "title": "Capturing Moments, <br />Preserving Memories.",
+    "title_part1": "Capturing Moments,",
+    "title_part2": "Preserving Memories.",
     "bio1": "Hello, I am Nichlas Behrmann, an entrepreneur, drone pilot, and photographer based in Stockholm, Sweden. Since 2008, I have dedicated myself to the art of visual storytelling.",
     "bio2": "Beyond photography, I am deeply passionate about animals and nature. There is nothing like the sound of water rippling or the wind through the trees to inspire my work.",
     "bio3": "My goal is to capture the harmony between humans and the natural world, emphasizing the importance of preserving our environment for future generations.",
@@ -70,8 +71,9 @@
       "address_label": "Address",
       "address": "Inteckningsvägen 24, 129 31 Stockholm, Sweden",
       "phone_label": "Phone",
+      "phone": "+46 704 98 09 75",
       "email_label": "Email",
-      "email": "nichlas@photobybehrmann.se",
+      "email": "nichlas{'@'}photobybehrmann.se",
       "billing_label": "Billing Information",
       "billing": "Registered for F-tax and VAT"
     }

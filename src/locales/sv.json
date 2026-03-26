@@ -34,7 +34,8 @@
   },
   "about": {
     "subtitle": "Konstnären bakom linsen",
-    "title": "Fångar ögonblick, <br />bevarar minnen.",
+    "title_part1": "Fångar ögonblick,",
+    "title_part2": "bevarar minnen.",
     "bio1": "Hej, jag heter Nichlas Behrmann och är företagare, drönarpilot och fotograf baserad i Stockholm. Sedan 2008 har jag ägnat mig åt konsten att berätta visuella historier.",
     "bio2": "Utöver fotografering brinner jag för djur och natur. Det finns inget som ljudet av porlande vatten eller vinden genom träden som inspirerar mitt arbete.",
     "bio3": "Mitt mål är att fånga harmonin mellan människor och naturen, och betona vikten av att bevara vår miljö för framtida generationer.",
@@ -70,8 +71,9 @@
       "address_label": "Adress",
       "address": "Inteckningsvägen 24, 129 31 Stockholm",
       "phone_label": "Telefon",
+      "phone": "+46 704 98 09 75",
       "email_label": "E-post",
-      "email": "nichlas@photobybehrmann.se",
+      "email": "nichlas{'@'}photobybehrmann.se",
       "billing_label": "Faktureringsinformation",
       "billing": "Godkänd för F-skatt och Moms"
     }

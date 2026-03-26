@@ -20,7 +20,8 @@ const { t } = useI18n();
 
       <div class="w-full lg:w-1/2">
         <span class="text-warm-dark uppercase tracking-[0.2em] text-xs font-bold mb-4 block">{{ t('about.subtitle') }}</span>
-        <h2 class="text-4xl md:text-5xl font-serif font-bold mb-8 leading-tight text-charcoal" v-html="t('about.title')">
+        <h2 class="text-4xl md:text-5xl font-serif font-bold mb-8 leading-tight text-charcoal">
+          {{ t('about.title_part1') }} <br /> {{ t('about.title_part2') }}
         </h2>
         <div class="space-y-6 text-muted font-light leading-relaxed text-lg">
           <p>{{ t('about.bio1') }}</p>
