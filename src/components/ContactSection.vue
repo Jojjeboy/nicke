@@ -36,7 +36,7 @@ const { t } = useI18n();
         <div class="space-y-8">
           <div>
             <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-2">{{ t('contact.details.phone_label') }}</h4>
-            <p class="text-2xl font-serif text-offwhite">{{ t('contact.details.phone') }}</p>
+            <p class="text-2xl font-serif text-offwhite"><a href="tel:+46701234567">+46 704 98 09 75</a> </p>
           </div>
           <div>
             <h4 class="text-warm text-[10px] font-bold uppercase tracking-[0.2em] mb-2">{{ t('contact.details.address_label') }}</h4>
